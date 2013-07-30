@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    
+    "name": "BuzzKill",
+    "description": "Rid the web of any and all references to the plague of the web that is BuzzFeed."
+    "version": "1.0",
+    
+    "permissions": [
+        "https://buzzfeed.com/"
+    ],
+    "browser_action":{
+        "default_icon": "BuzzKill.png",
+        "default_popup": "popup.html"
+    }
+}
