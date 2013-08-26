@@ -7,7 +7,6 @@
     
     "browser_action":{
         "default_icon": "BuzzKill.png",
-        "default_popup": "popup.html"
     },
     "content_scripts": [
     {
