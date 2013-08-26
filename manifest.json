@@ -4,6 +4,7 @@
     "name": "BuzzKill",
     "description": "Replace pesky BuzzFeed links with a Wikipedia randomizer: instead of letting your brain rot, learn something new for a change!", 
     "version": "1.0",
+    "icons": "buzzkill.png",
 
    "content_scripts": [
     {
