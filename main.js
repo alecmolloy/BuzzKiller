@@ -8,3 +8,4 @@ for (var i = 0; i < anchorTags.length; i++) {
         anchorTags[i].onclick = "";
     }
 }
+

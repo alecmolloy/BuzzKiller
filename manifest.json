@@ -2,16 +2,14 @@
     "manifest_version": 2,
     
     "name": "BuzzKill",
-    "description": "Replace pesky BuzzFeed links with a Wikipedia randomizer: instead of letting your brain rot, learn something new for a change!"
+    "description": "Replace pesky BuzzFeed links with a Wikipedia randomizer: instead of letting your brain rot, learn something new for a change!", 
     "version": "1.0",
-    
-    "browser_action":{
-        "default_icon": "BuzzKill.png",
-    },
-    "content_scripts": [
+
+   "content_scripts": [
     {
-      "matches": ["*"],
-      "js": ["main.js"]
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["main.js"],
+      "run at": "document start"
     }
-  ],
+    ]
 }   
